@@ -156,6 +156,7 @@
 -r:"/Users/donotruck21/.nuget/packages/System.Threading.Timer/4.0.1/ref/netstandard1.2/System.Threading.Timer.dll"
 -r:"/Users/donotruck21/.nuget/packages/System.Xml.ReaderWriter/4.0.11/ref/netstandard1.3/System.Xml.ReaderWriter.dll"
 -r:"/Users/donotruck21/.nuget/packages/System.Xml.XDocument/4.0.11/ref/netstandard1.3/System.Xml.XDocument.dll"
+-resource:"/Users/donotruck21/Desktop/csharp/aspnet_core/time_display/obj/Debug/netcoreapp1.0/time_displaydotnet-compile.deps.json",time_display.deps.json
 "/Users/donotruck21/Desktop/csharp/aspnet_core/time_display/Program.cs"
 "/Users/donotruck21/Desktop/csharp/aspnet_core/time_display/Startup.cs"
 "/Users/donotruck21/Desktop/csharp/aspnet_core/time_display/Controllers/HelloController.cs"
