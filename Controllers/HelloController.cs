@@ -1,3 +1,4 @@
+using System;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -9,17 +10,10 @@ namespace TimeDisplay.Controllers
         [Route("")]
         public IActionResult Index()
         {
-            return View("Index");
-        }
-
-
-
-        [HttpPost]
-        [Route("method")]
-        public IActionResult Method(string TextField, int NumberField)
-        {
-            System.Console.WriteLine("FORM SUBMITTING!");
-            System.Console.WriteLine(TextField);
+            DateTime CurrentTime = DateTime.Now;
+            System.Console.WriteLine(CurrentTime);
+            System.Console.WriteLine(CurrentTime.ToString("MMMM dd, yyyy hh:mm tt"));
+            ViewBag.Time = CurrentTime.ToString("MMMM dd, yyyy hh:mm tt");
             return View("Index");
         }
     }
