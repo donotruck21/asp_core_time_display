@@ -11,5 +11,16 @@ namespace TimeDisplay.Controllers
         {
             return View("Index");
         }
+
+
+
+        [HttpPost]
+        [Route("method")]
+        public IActionResult Method(string TextField, int NumberField)
+        {
+            System.Console.WriteLine("FORM SUBMITTING!");
+            System.Console.WriteLine(TextField);
+            return View("Index");
+        }
     }
 }
